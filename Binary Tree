@@ -25,8 +25,8 @@ class Node:
  print( self.data),
  if self.right:
  self.right.PrintTree()
-root = Node(2)
-root.insert(5)
+root = Node(3)
 root.insert(4)
-root.insert(1)
+root.insert(9)
+root.insert(78)
 root.PrintTree()
